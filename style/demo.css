@@ -1,0 +1,19 @@
+/*图片里面的小点*/
+.dot{
+    text-align: center;
+    margin-top: 75px;
+}
+.dot .red,.blue,.zong{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background:url("../images/点01.jpg")
+}
+.dot .blue{
+    background:url("../images/点02.jpg");
+    margin:0 16px;
+}
+.dot .zong{
+    background:url("../images/点03.jpg")
+}
